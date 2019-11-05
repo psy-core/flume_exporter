@@ -1,11 +1,11 @@
 package main
 
 import (
-	log "github.com/Sirupsen/logrus"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/version"
-	"github.com/woozhijun/flume_exporter/exporter"
+	"github.com/psy-core/flume_exporter/exporter"
+	log "github.com/sirupsen/logrus"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"net/http"
 )

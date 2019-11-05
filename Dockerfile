@@ -1,5 +1,5 @@
 FROM       quay.io/prometheus/busybox:latest
-MAINTAINER woozhijun
+MAINTAINER psy-core
 
 COPY flume_exporter /bin/flume_exporter
 

@@ -2,10 +2,10 @@ package exporter
 
 import (
 	"fmt"
-	log "github.com/Sirupsen/logrus"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/woozhijun/flume_exporter/collector"
-	"github.com/woozhijun/flume_exporter/config"
+	"github.com/psy-core/flume_exporter/collector"
+	"github.com/psy-core/flume_exporter/config"
+	log "github.com/sirupsen/logrus"
 	"regexp"
 	"strconv"
 	"strings"
